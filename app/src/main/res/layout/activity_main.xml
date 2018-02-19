@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="com.example.android.ontypecard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/corporateidentity"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="30dp"
+            android:paddingTop="18dp"
+            android:text="@string/companyName"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="6dp"
+            android:text="@string/description"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:autoLink="map"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/location"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/address"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="4dp"
+            android:autoLink="phone"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/phone"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/phone"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="4dp"
+            android:autoLink="email"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/email"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/email"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="4dp"
+            android:autoLink="web"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/web"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/web"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

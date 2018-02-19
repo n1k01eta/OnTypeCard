@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OnTypeCard</string>
+    <string name="companyName">ON:TYPE TZANNE</string>
+    <string name="description">modern digital printing shop</string>
+    <string name="address">39 Kanari, Kalamata 24100</string>
+    <string name="phone">  +30 27210 82240</string>
+    <string name="email">  ontypetzanne@gmail.com</string>
+    <string name="web">  www.ontype.gr</string>
+
+</resources>
